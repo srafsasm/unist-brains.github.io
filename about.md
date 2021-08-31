@@ -1,74 +1,43 @@
 ---
 layout: article
-titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
+titles: 소개
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+# 소개
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+UNIST [인공지능대학원](https://aigs.unist.ac.kr/web/index.php)과 함께하는 인공지능 동아리 brAIns(**br** **AI** **n**eo **s**cientists) 입니다!
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+# 활동
 
-## Features
+## 정기 모임
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+모든 활동 회원이 한 달에 한 번 정기적으로 모여 지금까지 있어왔던 활동들을 정리하고 앞으로의 방향을 모색하는 모임입니다.
+때때로 특별한 주제로 세미나도 열립니다.
 
-## Skins
+## 스터디
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+brAIns에서는 인공지능과 관련된 다양한 스터디를 구성하고 있습니다.
+활동 회원은 적어도 하나 이상의 스터디에 참여해야 합니다.
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+### 핸즈 온 스터디 (구현 스터디)
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+핸즈 온 스터디는 인공지능 모델을 이해하고 구현하는 스터디입니다.
+스터디 구성원은 돌아가면서 코드 튜토리얼을 발표하게 됩니다.
+코드 튜토리얼은 책 또는 공개된 자료를 기반으로 인공지능 모델과 코드를 실시간으로 함께 작성합니다.
 
-### Highlight Theme
+### 논문 스터디
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+논문 스터디는 빠르게 변화하는 인공지능 분야에서 논문을 이해하고 비판하는 능력을 키우고자 하는 스터디입니다.
+논문 스터디에서는 모두가 돌아가면서 자신이 읽고 싶은 논문을 발표하게 됩니다.
+발표하는 논문은 인공지능과 관련된 모든 논문이 발표가 가능합니다.
+발표가 끝난 이후에는 논문을 가지고 비판적으로 토의하는 시간을 가집니다.
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+## 학과 수업 모임
+
+공통된 학과 수업을 듣는 사람이 모여 같이 공부하고 의견을 교환하는 모임입니다.
+
+# 모집
+
+인공지능에 관심을 가진 모든 UNIST 학생이라면 들어오실 수 있습니다.
+모집 기간은 가을학기 말에 모집할 예정입니다.

@@ -36,8 +36,8 @@ timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_tim
 author:
   type      : organization # "person" (default), "organization"
   name      : brAIns
-  url       :
-  avatar    : "assets/unist.svg" # path or url of avatar image (square)
+  url       : https://unist-brains.github.io
+  avatar    : # path or url of avatar image (square)
   bio       : brew AI neo scientist
   email     : 
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
@@ -52,6 +52,8 @@ author:
   github    : https://github.com/UNIST-brAIns # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
+favicon: assets/images/logo/favicon.ico
+logo: assets/images/logo/unist.svg
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################

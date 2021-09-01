@@ -6,7 +6,7 @@ key: page-about
 
 # 소개
 
-UNIST [인공지능대학원](https://aigs.unist.ac.kr/web/index.php)과 함께하는 인공지능 동아리 brAIns(**br** **AI** **n**eo **s**cientists) 입니다!
+UNIST [인공지능대학원](https://aigs.unist.ac.kr/web/index.php)과 함께하는 인공지능 동아리 brAIns(**br**ew **AI** **n**eo **s**cientists) 입니다!
 
 # 활동
 

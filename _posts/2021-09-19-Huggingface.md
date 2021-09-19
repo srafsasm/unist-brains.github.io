@@ -27,7 +27,7 @@ dataset = load_dataset(“allenai/scico”)
 
 이 밖에 다양한 데이터셋을 다음처럼 Hugging Face의 홈페이지를 참고해 불러올 수 있습니다.
 
-[Hugging face](/assets/images/hugging_nlp.gif)
+![Hugging face](/assets/images/hugging_nlp.gif)
 
 이처럼 hugging face의 transformers 모듈이나 datasets 모듈은 필요한 모델이나 데이터를 python의 점(.), 괄호(( )) 등으로 호출한다는 점에서 tensorflow, pytorch의 패키지와 사용 방법이 매우 유사합니다. 
 다만 hugging face의 모듈들이 tensorflow 나 pytorch 를 이용해 만들어진 고차원(?) 모듈이라는 점에서 tensorflow 나 pytorch 같은 패키지와는 개념이 조금 다릅니다. 이러한 high-level api는 모델을 적용하는 단계에서 데이터와 학습 방법에 대한 아이디어만 있다면 매우 빨리 모델을 생성하고 학습시킬 수 있습니다. 

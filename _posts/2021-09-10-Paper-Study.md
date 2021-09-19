@@ -21,4 +21,4 @@ brAIns 논문 스터디는 빠르게 변화하고 있는 인공지능 분야에�
 
 주차 | 이름 | 발표논문명 | 논문링크 | 발표자료
 :---: | :---: | :---: | :---: | :---:
-3 | 안윤표 | An Analysis of Deep Neural Network Models for Practical Applications | [Link](https://arxiv.org/abs/1605.07678) | [PDF](/assets/pdf/20210917_YunpyoAn.pdf)
+3 | 안윤표 | An Analysis of Deep Neural Network Models for Practical Applications | [Paper](https://arxiv.org/abs/1605.07678) | [PDF](/assets/pdf/20210917_YunpyoAn.pdf)

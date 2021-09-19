@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/UNIST-brAIns/unist-brains.github.io.svg?branch=master)](https://app.travis-ci.com/UNIST-brAIns/unist-brains.github.io)
+
 # brAIns Blog
 
 Blog of UNIST AI club, brAIns

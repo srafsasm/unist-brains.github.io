@@ -1,11 +1,10 @@
 ---
-title: "2021 가을 논문 스터디"
+title: "“NLP” 하면 꼭 알아야 할 Hugging Face "
 tag: NLP
 ---
 
 작성자: 김선재
 
-# “NLP” 하면 꼭 알아야 할 Hugging Face 
 
 한 번쯤 BERT 나 GPT, BART, ERNIE 등등의 NLP 모델들을 접해보았다면, 그 모델들의 놀라운 결과를 자신이 가진 데이터나 나만의 작업에 적용하기 위해 paperswithcode나 google로 관련 코드를 찾아봤을 것입니다. 
 보통 모델들에 대한 python 코드나 notebook 파일을 찾는 경우 github나 gitlab에 코드나 노트북이 있는 경우가 많아 거기에서 포크하는 경우가 많습니다.

@@ -1,6 +1,7 @@
 ---
 title: "2021 가을 논문 스터디"
-tags: [paper, study, Vision]
+tag: post_url
+labels: [paper, study, Vision]
 ---
 
 # 소개
@@ -21,6 +22,6 @@ brAIns 논문 스터디는 빠르게 변화하고 있는 인공지능 분야에�
 
 주차 | 이름 | 발표논문명 | 논문링크 | 발표자료
 :---: | :---: | :---: | :---: | :---:
-3 | 안윤표 | An Analysis of Deep Neural Network Models for Practical Applications | [Paper](https://arxiv.org/abs/1605.07678) | [PDF]({{ site.url }}/assets/pdf/20210917_YunpyoAn.pdf)
-5 | 유인재 | Genetic Algorithms: Concepts and Applications | [Paper](https://ieeexplore.ieee.org/document/538609) | [PDF]({{ site.url }}/assets/pdf/1001_InjaeYoo.pdf)
-9 | 김형규 | An Analysis of Deep Neural Network Models for Practical Applications | [Paper](https://arxiv.org/abs/2105.09932) | [PDF]({{ site.url }}/assets/pdf/1029_HyeonggyuKim.pdf)
+3 | 안윤표 | An Analysis of Deep Neural Network Models for Practical Applications | [Paper](https://arxiv.org/abs/1605.07678) | [PDF](/assets/pdf/20210917_YunpyoAn.pdf)
+5 | 유인재 | Genetic Algorithms: Concepts and Applications | [Paper](https://ieeexplore.ieee.org/document/538609) | [PDF](/assets/pdf/1001_InjaeYoo.pdf)
+9 | 김형규 | An Analysis of Deep Neural Network Models for Practical Applications | [Paper](https://arxiv.org/abs/2105.09932) | [PDF](/assets/pdf/1029_HyeonggyuKim.pdf)

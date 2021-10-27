@@ -9,6 +9,6 @@ Blog of UNIST AI club, brAIns
 # How to post
 
 1. Make markdown file under `_posts` directory
-2. Push `master` branch
+2. Push `main` branch
 
 [Markdown Guide](https://www.markdownguide.org/basic-syntax/)

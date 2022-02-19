@@ -1,7 +1,6 @@
 ---
 title: "2021 가을 논문 스터디"
-tag: post_url
-tags: paper, study, Vision
+tags: paper study Vision
 ---
 
 # 소개

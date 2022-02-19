@@ -1,7 +1,6 @@
 ---
 title: "어떻게 인공지능 분야 논문을 찾을 것인가??"
-tag: post_url
-tags: paper, study
+tags: paper study
 ---
 
 작성자: [안윤표](https://raon1123.github.io)

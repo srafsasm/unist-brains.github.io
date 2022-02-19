@@ -1,6 +1,6 @@
 ---
 title: "“NLP” 하면 꼭 알아야 할 Hugging Face "
-tag: NLP
+tags: NLP
 ---
 
 작성자: 김선재

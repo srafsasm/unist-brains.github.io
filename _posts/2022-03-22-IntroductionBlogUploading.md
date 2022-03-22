@@ -40,11 +40,8 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 이후 새로 생성한 폴더에서 우클릭을 통해 git bash를 열어 git command 창을 띄워줍니다.   
 
-<img src="../assets/images/Capture0322/capture2.jpg" width="28%" title="git command 창 띄우기" align="left"></img>
-<img src="../assets/images/Capture0322/capture3.jpg" width="72%" title="git command 창" align="right"></img>     
+![github 주소 복사](../assets/images/Capture0322/capture3.jpg)
   
-.  
-
 열린 command 창에 다음 코드를 입력하여 폴더를 git 저장소로 설정해줍니다.
 
     git init
@@ -66,7 +63,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 md 파일 같은 경우에는 [Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601)문법을 사용하여 작성하는데, 링크를 통해 문법을 확인하실 수 있습니다.   
 블로그 포스팅 글을 작성하실 때 제목과 작성자, 태그를 표시해야 한다는 점을 제외하고는 모두 자유롭게 작성하셔도 됩니다.   
 
-![기본 양식](../../../image/capture5.jpg)
+![기본 양식](../assets/images/Capture0322/capture5.jpg)
 
 md 파일의 이름은 포스팅 글을 작성한 날짜와 영문 제목으로 설정해주시고, 제목과 태그, 작성자를 다음과 같이 맨 위에 작성해주시면 됩니다. 이후에는 자유롭게 작성하시면 됩니다!   
 작성을 완료하신 경우, 작성이 완료된 md 파일을 **_post** 폴더에 넣고 commit,push 과정을 진행하시면 됩니다. (다음 단원에 설명이 있습니다!)   

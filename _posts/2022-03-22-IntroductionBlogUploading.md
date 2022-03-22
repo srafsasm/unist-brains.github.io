@@ -41,9 +41,10 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 이후 새로 생성한 폴더에서 우클릭을 통해 git bash를 열어 git command 창을 띄워줍니다.   
 
 <img src="../assets/images/Capture0322/capture2.jpg" width="28%" title="git command 창 띄우기" align="left"></img>
-<img src="../assets/images/Capture0322/capture3.jpg" width="72%" title="git command 창" align="right"></img>   
-
+<img src="../assets/images/Capture0322/capture3.jpg" width="72%" title="git command 창" align="right"></img>     
   
+.  
+
 열린 command 창에 다음 코드를 입력하여 폴더를 git 저장소로 설정해줍니다.
 
     git init

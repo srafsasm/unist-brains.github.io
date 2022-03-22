@@ -32,7 +32,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 먼저 원하는 위치에 새 폴더를 생성합니다. 이 폴더에 저장소를 연동하도록 하겠습니다. [unist brAIns github 페이지](https://github.com/UNIST-brAIns/unist-brains.github.io)에 접속하여 우측 상단의 초록색 "Code" 버튼을 눌러줍니다. 새로 뜬 창에서 HTTPS 주소를 복사 버튼을 통해 복사해줍니다.
 
-![github 주소 복사](../../../image/capture1.jpg)
+![github 주소 복사](../assets/images/Capture0322/capture1.jpg)
 
 또는 아래 주소를 복사하셔도 됩니다.
 
@@ -40,8 +40,8 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 이후 새로 생성한 폴더에서 우클릭을 통해 git bash를 열어 git command 창을 띄워줍니다.   
 
-<img src="../../../image/capture2.jpg" width="28%" title="git command 창 띄우기" align="left"></img>
-<img src="../../../image/capture3.jpg" width="72%" title="git command 창" align="right"></img>   
+<img src="../assets/images/Capture0322/capture2.jpg" width="28%" title="git command 창 띄우기" align="left"></img>
+<img src="../assets/images/Capture0322/capture3.jpg" width="72%" title="git command 창" align="right"></img>   
 
   
 열린 command 창에 다음 코드를 입력하여 폴더를 git 저장소로 설정해줍니다.
@@ -53,7 +53,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 이렇게 하면, unist brAIns 저장소에 존재하는 모든 파일들이 다음과 같이 새로 만든 폴더에 복사되어 들어온 것을 볼 수 있습니다.
 
-![완료된 모습](../../../image/capture4.jpg)
+![완료된 모습](../assets/images/Capture0322/capture4.jpg)
 
 여기까지 진행하면 작성을 위한 초기 설정이 완료되었다고 볼 수 있습니다!
    
@@ -101,4 +101,27 @@ md 파일의 이름은 포스팅 글을 작성한 날짜와 영문 제목으로 
 
 여기까지 진행하시면 블로그 포스팅과 코드 업로드 과정이 모두 완료되었습니다! (축하드립니다!) 업로드 과정에 문제가 있거나 도움이 필요한 경우 언제든지 연락 주셔도 좋을 것 같습니다.   
 
+---
+# 5. F&Q
+아래는 제가 블로그 작성을 하면서 들었던 궁금증이나, 도움이 되었던 것들을 간단하게 적어 보았습니다.
+
+* git add,commit,push 등이 잘 이루어졌는지 확인하고 싶습니다! 
+    * 다음 코드를 git command 창에서 입력하면 현재 상태와 다음으로 어떤 작업을 해야 하는지에 대한 안내 문구를 출력할 수 있습니다.
+    <pre><code>git status</code></pre>
+    현재 어떤 파일이 변경되었는지, 어떤 명령어를 다음으로 작성해야 할지에 대한 정보를 얻을 수 있어 편리합니다.
+
+    
+    
+* git push 과정을 처음 진행할 때에는 저장소 이름을 명시해 주어야 하지만, 그 다음부터는 간단하게 <pre><code>git push</code></pre>명령어 만으로도 push를 진행할 수 있습니다.
+
+* 블로그 포스팅을 위해 작성한 Markdown 파일에 사진을 첨부하고 싶습니다! (or 자꾸 파일에 첨부한 사진이 잘 보이지 않습니다!)
+    * 올리고자 하는 사진을 brAIns 저장소 안의 assets/images 폴더에 넣은 뒤 위치를 다음과 같이 지정해줍니다.
+    <pre><code>../assets/images/(이미지 파일 이름)</code></pre>
+    경로 설정 방법에 관한 더 자세한 내용은 [여기](https://webfoxrain.tistory.com/11)에서 확인하실 수 있습니다. 상대경로에 대한 부분을 확인하시면 좋을 것 같습니다.
+
+* md 파일은 [Notion](https://www.notion.so/ko-kr/product)에서 글을 작성한 뒤에 내보내기 버튼을 통해 생성하는 것도 가능합니다! 내용을 notion으로 작성하고 md파일로 만든 뒤, 제목과 태그를 달아주면 편리하게 사용할 수 있습니다.
+
+* md 파일을 처음 작성해서 문법이 생소하거나, 어떻게 작성해야 할지 잘 모르겠다면 먼저 작성하신 분들이 어떤 문법을 사용했는지 확인해보는 것도 도움이 많이 됩니다. _posts 폴더 안의 다른 md파일을 열면 다른 분들이 포스팅한 글을 바로 확인하실 수 있습니다!
+
+---
 감사합니다!

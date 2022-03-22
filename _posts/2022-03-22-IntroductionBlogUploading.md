@@ -32,7 +32,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 먼저 원하는 위치에 새 폴더를 생성합니다. 이 폴더에 저장소를 연동하도록 하겠습니다. [unist brAIns github 페이지](https://github.com/UNIST-brAIns/unist-brains.github.io)에 접속하여 우측 상단의 초록색 "Code" 버튼을 눌러줍니다. 새로 뜬 창에서 HTTPS 주소를 복사 버튼을 통해 복사해줍니다.
 
-![github 주소 복사]("C:\Users\JYJ\Desktop\연습용 폴더\image\capture1.jpg")
+![github 주소 복사](../../../image/capture1.jpg)
 
 또는 아래 주소를 복사하셔도 됩니다.
 
@@ -40,8 +40,8 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 이후 새로 생성한 폴더에서 우클릭을 통해 git bash를 열어 git command 창을 띄워줍니다.   
 
-<img src="./image/capture2.jpg" width="28%" title="git command 창 띄우기" align="left"></img>
-<img src="./image/capture3.jpg" width="72%" title="git command 창" align="right"></img>   
+<img src="../../../image/capture2.jpg" width="28%" title="git command 창 띄우기" align="left"></img>
+<img src="../../../image/capture3.jpg" width="72%" title="git command 창" align="right"></img>   
 
   
 열린 command 창에 다음 코드를 입력하여 폴더를 git 저장소로 설정해줍니다.
@@ -53,7 +53,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 이렇게 하면, unist brAIns 저장소에 존재하는 모든 파일들이 다음과 같이 새로 만든 폴더에 복사되어 들어온 것을 볼 수 있습니다.
 
-![완료된 모습](./image/capture4.jpg)
+![완료된 모습](../../../image/capture4.jpg)
 
 여기까지 진행하면 작성을 위한 초기 설정이 완료되었다고 볼 수 있습니다!
    
@@ -65,7 +65,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 md 파일 같은 경우에는 [Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601)문법을 사용하여 작성하는데, 링크를 통해 문법을 확인하실 수 있습니다.   
 블로그 포스팅 글을 작성하실 때 제목과 작성자, 태그를 표시해야 한다는 점을 제외하고는 모두 자유롭게 작성하셔도 됩니다.   
 
-![기본 양식](./image/capture5.jpg)
+![기본 양식](../../../image/capture5.jpg)
 
 md 파일의 이름은 포스팅 글을 작성한 날짜와 영문 제목으로 설정해주시고, 제목과 태그, 작성자를 다음과 같이 맨 위에 작성해주시면 됩니다. 이후에는 자유롭게 작성하시면 됩니다!   
 작성을 완료하신 경우, 작성이 완료된 md 파일을 **_post** 폴더에 넣고 commit,push 과정을 진행하시면 됩니다. (다음 단원에 설명이 있습니다!)   
@@ -80,12 +80,15 @@ md 파일의 이름은 포스팅 글을 작성한 날짜와 영문 제목으로 
 새로 작성하거나 수정한 파일의 이름을 복사하여 다음 코드를 입력합니다. 이 과정을 통해 staging erea에 작성 파일을 등록하게 됩니다.
 
     git add (파일명)
+
 변경된 파일 전부를 동시에 add하고 싶을 떄에는 다음 코드를 사용할 수 있습니다.
 
     git add .
+
 다음 코드를 입력하여 staging erea에 있는 작성 파일을 로컬 저장소에 commit합니다.
 
     git commit -m (원하는 메세지)
+
 원하는 메세지는 자유롭게 작성하시면 되고, 주로 commit하는 파일이 무엇인지, 수정 사항이 무엇인지를 입력하고는 합니다.   
 
 마지막으로 다음 코드를 입력하여 로컬 저장소의 변경 사항을 메인 저장소에 업데이트합니다.

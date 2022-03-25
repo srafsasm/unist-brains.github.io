@@ -37,11 +37,11 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 먼저 원하는 위치에 새 폴더를 생성합니다. 이 폴더에 로컬 저장소를 생성하도록 하겠습니다. [github](https://github.com/)에 접속하여 로그인한 뒤, [unist brAIns github 페이지](https://github.com/UNIST-brAIns/unist-brains.github.io)에 접속하여 우측 상단의 "Fork" 버튼을 눌러 자신의 github repository에 brAIns repository를 복사해 옵니다.
 
-![fork butten](../assets/images/Capture0322/capture1.jpg)
+![fork butten](./assets/images/Capture0322/capture1.jpg)
 
 복사된 repository에 들어가 우측 상단의 "Code" 버튼을 눌러줍니다. 새로 뜬 창에서 HTTPS 주소를 복사 버튼을 눌러 복사해줍니다. 
 
-![repository](../assets/images/Capture0322/capture2.jpg)
+![repository](./assets/images/Capture0322/capture2.jpg)
 
 이후 새로 생성한 폴더에서 우클릭을 통해 git bash를 열어 git command 창을 띄워줍니다(Mac의 경우 terminal). 열린 command 창에 다음 코드를 입력하여 로컬 디렉토리를 fork해온 unist brAIns 저장소와 연동해줍니다.(복사한 주소) 위치에 (git bash의 경우) shift+insert를 통해 복사한 주소를 입력해줍니다. (괄호는 없어야 합니다!)
 
@@ -49,7 +49,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 이렇게 하면, unist brAIns 저장소에 존재하는 모든 파일들이 다음과 같이 새로 만든 폴더에 복사되어 들어온 것을 볼 수 있습니다.
 
-![cloned folder](../assets/images/Capture0322/capture3.jpg)
+![cloned folder](./assets/images/Capture0322/capture3.jpg)
 
 이제 로컬 저장소를 brAIns 원격 저장소와 연동해주기 위해 다시 [unist brAIns github 페이지](https://github.com/UNIST-brAIns/unist-brains.github.io)에 접속합니다. 이번에는 fork해온 자신의 repository에 복사된 brAIns repository가 아닌, 원본 brAIns repository에서 우측 상단의 "Code"버튼을 눌러 HTTPS 주소를 복사합니다. 또는 다음 주소를 복사하셔도 됩니다. 
 
@@ -69,7 +69,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 연동된 경우 다음과 같은 화면을 볼 수 있습니다.
 
-![remote](../assets/images/Capture0322/capture4.jpg)
+![remote](./assets/images/Capture0322/capture4.jpg)
 
 여기까지 진행하면 작성을 위한 초기 설정이 완료되었습니다!
    
@@ -94,7 +94,7 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 md 파일 같은 경우에는 [Markdown](https://gist.github.com/ihoneymon/652be052a0727ad59601)문법을 사용하여 작성하는데, 링크를 통해 문법을 확인하실 수 있습니다.   
 블로그 포스팅 글을 작성하실 때 제목과 작성자, 태그를 표시해야 한다는 점을 제외하고는 모두 자유롭게 작성하셔도 됩니다.   
 
-![기본 양식](../assets/images/Capture0322/capture5.jpg)
+![기본 양식](./assets/images/Capture0322/capture5.jpg)
 
 md 파일의 이름은 포스팅 글을 작성한 날짜와 영문 제목으로 설정해주시고, 제목과 태그, 작성자를 다음과 같이 맨 위에 작성해주시면 됩니다. 이후에는 자유롭게 작성하시면 됩니다!   
 작성을 완료하신 경우, 작성이 완료된 md 파일을 **_post** 폴더에 넣고 commit,push 과정을 진행하시면 됩니다. (다음 단원에 설명이 있습니다!)   
@@ -129,7 +129,7 @@ md 파일의 이름은 포스팅 글을 작성한 날짜와 영문 제목으로 
 
 푸시 과정에서 github와 git bash 간의 연동 허용 창이 뜨기도 하는데, 허용해줍니다. 푸시가 완료된 후 github 페이지로 이동해 fork한 brAIns repository로 들어가면 다음과 같은 초록색 "Compare & pull request" 버튼이 활성화됩니다.
 
-![CP request](../assets/images/Capture0322/capture6.jpg)
+![CP request](./assets/images/Capture0322/capture6.jpg)
 
 활성화된 버튼을 누르고, comment에 어떤 내용을 추가하거나 변경하였는지 적은 뒤, "Create pull repuest" 버튼을 누르면 완료됩니다.
 
@@ -151,7 +151,7 @@ md 파일의 이름은 포스팅 글을 작성한 날짜와 영문 제목으로 
 
 * 블로그 포스팅을 위해 작성한 Markdown 파일에 사진을 첨부하고 싶습니다! (or 자꾸 파일에 첨부한 사진이 잘 보이지 않습니다!)
     * 올리고자 하는 사진을 brAIns 저장소 안의 assets/images 폴더에 넣은 뒤 위치를 다음과 같이 지정해줍니다.
-    <pre><code>../assets/images/(이미지 파일 이름)</code></pre>
+    <pre><code>./assets/images/(이미지 파일 이름)</code></pre>
     경로 설정 방법에 관한 더 자세한 내용은 [여기](https://webfoxrain.tistory.com/11)에서 확인하실 수 있습니다. 상대경로에 대한 부분을 확인하시면 좋을 것 같습니다.
 
 * md 파일은 [Notion](https://www.notion.so/ko-kr/product)에서 글을 작성한 뒤에 내보내기 버튼을 통해 생성하는 것도 가능합니다! 내용을 notion으로 작성하고 md파일로 만든 뒤, 제목과 태그를 달아주면 편리하게 사용할 수 있습니다.

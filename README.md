@@ -37,6 +37,8 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 먼저 원하는 위치에 새 폴더를 생성합니다. 이 폴더에 로컬 저장소를 생성하도록 하겠습니다. [github](https://github.com/)에 접속하여 로그인한 뒤, [unist brAIns github 페이지](https://github.com/UNIST-brAIns/unist-brains.github.io)에 접속하여 우측 상단의 "Fork" 버튼을 눌러 자신의 github repository에 brAIns repository를 복사해 옵니다.
 
+여기서는 블로그 글 업로드를 기준으로 설명하지만, 블로그 글이 아닌 코드를 업로드하는 경우 **코드를 업로드하고자 하는 repository**를 fork해야 합니다.
+
 ![fork butten](./assets/images/Capture0322/capture1.jpg)
 
 복사된 repository에 들어가 우측 상단의 "Code" 버튼을 눌러줍니다. 새로 뜬 창에서 HTTPS 주소를 복사 버튼을 눌러 복사해줍니다. 
@@ -86,6 +88,8 @@ text editor의 경우에는 종류는 무관하며, 아직 사용하고 있지 �
 
 
 이렇게 branch 설정이 완료된 이후에 포스팅과 업로드를 로컬 저장소에서 진행하시면 됩니다.
+
+생성된 branch들은 `git switch (branch 이름)`으로 언제든지 전환할 수 있습니다.
 
 # 4. 작성 위치와 방법
 
@@ -138,7 +142,7 @@ md 파일의 이름은 포스팅 글을 작성한 날짜와 영문 제목으로 
 여기까지 진행하시면 블로그 포스팅과 코드 업로드 과정이 모두 완료되었습니다! (축하드립니다!) 업로드 과정에 문제가 있거나 도움이 필요한 경우 언제든지 연락 주셔도 좋을 것 같습니다.   
 
 ---
-# 6. F&Q
+# 6. FAQ
 아래는 제가 블로그 작성을 하면서 들었던 궁금증이나, 도움이 되었던 것들을 간단하게 적어 보았습니다.
 
 * git add,commit,push 등이 잘 이루어졌는지 확인하고 싶습니다! 

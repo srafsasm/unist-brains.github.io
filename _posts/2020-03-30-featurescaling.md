@@ -5,6 +5,7 @@ tags: study
 
 작성자 : 최준영
 
+
 # Feature Scaling
 
 머신 러닝에 사용될 데이터셋들은 대부분 다양한 feature 들을 가지게 됩니다. 그리고 머신러닝 모델은 이 feature들의 패턴과 상관관계를 찾아 의사결정 또는 예측을 하게 됩니다. feature 들은 다양한 정보를 숫자 또는 문자열로 가지며 이 값들은 제각기 다른 단위, 범위를 가집니다. ex) 키(단위 : cm , 범위 : 0~200), 몸무게(단위 : kg, 범위 : 0~150), 재산(단위 : 원, 범위 : -1,000,000,000 ~ +1,000,000,000))
@@ -73,14 +74,3 @@ $$
 
 
 
-reference
-
-https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/#h2_3
-
-https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e
-
-https://www.atoti.io/when-to-perform-a-feature-scaling/
-
-https://towardsdatascience.com/do-decision-trees-need-feature-scaling-97809eaa60c6
-
-https://stats.stackexchange.com/questions/29781/when-conducting-multiple-regression-when-should-you-center-your-predictor-varia
